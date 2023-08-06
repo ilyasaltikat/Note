@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+
+}
+
+.notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px auto 16px auto;
+    gap: 8px;
+
+}
+
+input {
+    height: 120px;
+    width: 330px;
+    background-color: rgb(242, 255, 250);
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .20);
+
+}
+
+.pin-button {
+    position: absolute;
+    top: 38px;
+    left: 1075px;
+    cursor: pointer;
+    height: 110px;
+    width: 47px;
+    background-color: rgb(224, 249, 239);
+    font-style: normal;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .20);
+
+}
+
+.button-note {
+    cursor: pointer;
+    height: 24px;
+    width: 64px;
+    background-color: rgb(224, 249, 239);
+    font-style: normal;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .20);
+
+}
+
+::placeholder {
+    font-size: 24px;
+    font-style: normal;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.note {
+    width: 500px;
+    height: 150px;
+    border: 1px solid lightblue;
+    padding: 18px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.d-none {
+    display: none;
+}
